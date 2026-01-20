@@ -9,6 +9,11 @@ I personally faced this issue on my system, so I built a **command-line utility*
 
 ---
 
+
+## Demo video
+[Demo](https://www.youtube.com/watch?v=kARk33K5XcU)
+
+
 ## 🚀 What This Tool Does
 
 * Takes a folder path as input from the command line
