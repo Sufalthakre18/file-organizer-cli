@@ -29,6 +29,7 @@ const fileType = {
     Code: [".js", ".html", ".css"]
 }
 
+// get category name
 function getCategoryName(extension){
     for(const category in fileType){
         if(fileType[category].includes(extension)) return category;
@@ -55,7 +56,7 @@ allfilesFromFolder.forEach((file)=>{
 
     const destinationPath=path.join(categoryFolderPath,file)
 
-
+    // move file from old path to new path
     try {
         fs.renameSync(filePath,destinationPath)
         moveFileCount++
