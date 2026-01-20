@@ -22,7 +22,7 @@ if (!fs.existsSync(absoluteFolder)) {
 
 const fileType = {
     Images: [".jpg", ".jpeg", ".png", ".gif"],
-    Documents: [".pdf", ".docx", ".txt"],
+    Documents: [".pdf", ".docx", ".txt",".xlsx"],
     Videos: [".mp4", ".mkv"],
     Audio: [".mp3", ".wav"],
     Archives: [".zip", ".rar"],
@@ -70,4 +70,4 @@ allfilesFromFolder.forEach((file)=>{
 
 
 console.log("\n Organization complete!");
-console.log(`Total files moved: ${movedCount}`);
+console.log(`Total files moved: ${moveFileCount}`);
