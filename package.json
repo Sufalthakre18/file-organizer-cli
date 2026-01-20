@@ -1,0 +1,21 @@
+{
+  "name": "file-organizer-cli",
+  "version": "1.0.0",
+  "description": "A Node.js command-line utility to organize files in a directory into categorized folders based on file type.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sufalthakre18/file-organizer-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sufalthakre18/file-organizer-cli/issues"
+  },
+  "homepage": "https://github.com/Sufalthakre18/file-organizer-cli#readme"
+}
