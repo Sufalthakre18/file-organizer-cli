@@ -103,3 +103,11 @@ Total files moved: 3
 ---
 * A **command-line interface** was chosen for simplicity, speed, and automation-friendly usage.
 ---
+## Conclusion
+
+This project demonstrates my understanding of:
+
+* File system operations
+* Command-line utilities
+* Clean and safe coding practices
+* Problem-solving using core JavaScript and Node.js
